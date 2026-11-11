@@ -1,5 +1,6 @@
 ## Descripción
 <!-- Describe qué cambia y por qué. Enlaza el issue relacionado: Closes #123 -->
+Describir brevemente los cambios en esta sección.
 
 ## Tipo de cambio
 - [ ] feat (nueva funcionalidad)
@@ -20,6 +21,7 @@
 
 ## Cómo probar
 <!-- Pasos para reproducir/verificar el cambio -->
+Pasos para reproducir/verificar el cambio
 
 ## Issues relacionados
 <!-- Closes #, Refs # -->
