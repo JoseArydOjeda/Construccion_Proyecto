@@ -1,0 +1,100 @@
+# =========================
+# SISTEMAS OPERATIVOS
+# =========================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =========================
+# JAVA
+# =========================
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# =========================
+# MAVEN
+# =========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Nota: El wrapper de Maven (mvnw, mvnw.cmd y el jar) sí se incluye en Git.
+
+# =========================
+# INTELLIJ IDEA
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+gen/
+production/
+classes/
+
+# =========================
+# NETBEANS
+# =========================
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# =========================
+# VISUAL STUDIO & VS CODE
+# =========================
+# VS Code
+.vscode/
+
+# Visual Studio (Windows)
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+bin/
+obj/
