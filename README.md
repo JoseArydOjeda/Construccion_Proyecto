@@ -1,22 +1,34 @@
 # Construccion_Proyecto
-Equipo 8
-- Valeria Sarai Moo Uc
 
 Proyecto Java (JDK 17 + Maven). Guía de entorno: [docs/SETUP.md](docs/SETUP.md).
 
-## Inicio rápido
+## Guía de inicio
+Requisitos: JDK 17.
 
-Requisitos: JDK 17 y Maven.
-
+1. Clonar el repositorio y entrar a la carpeta del proyecto.
 ```bash
-# Compilar
-mvn clean compile
+https://github.com/JoseArydOjeda/Construccion_Proyecto.git
+cd SGTU-construccion
+```
+2.-Ejecutar el proyecto
 
-# Ejecutar pruebas
-mvn clean test
+**MacOS/Linux**
+```bash
+./mvnw clean javafx:run
+```
+**Windows**
+```bash
+.\mvnw.cmd clean javafx:run
+```
+Ejecutar pruebas(Opcional)
 
-# (CI) sin interactividad
-mvn -B test
+**MacOS/Linux**
+```bash
+./mvn clean test
+```
+**Windows**
+```bash
+.\mvnw.cmd clean test
 ```
 
 Más detalles en [docs/SETUP.md](docs/SETUP.md). Contribución: [CONTRIBUTING.md](CONTRIBUTING.md). Agentes de IA: [AGENTS.md](AGENTS.md).
